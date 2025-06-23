@@ -1,6 +1,6 @@
 # Menú base del programa
-
-
+def datos_marco():
+ print("Mi nombre es Marco Calfucura y tengo 18 años.")
 
 
 
@@ -18,7 +18,7 @@ while True:
         print("Programa finalizado.")
         break
     elif op == "1":
-        pass # Aquí se llamará a la función del integrante 1
+        datos_marco()
     elif op == "2":
         pass # Aquí se llamará a la función del integrante 2
     elif op == "3":
