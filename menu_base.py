@@ -5,7 +5,8 @@ def datos_marco():
 def datos_gabriel():
     print("Mi nombre es Gabriel Diaz y tengo 27 años")
 
-
+def datos_vicente():
+   print("Mi nombre es Vicente Mitchell y tengo 22 años")
 
 
 while True:
@@ -23,6 +24,6 @@ while True:
     elif op == "2":
         datos_gabriel()
     elif op == "3":
-        pass # Aquí se llamará a la función del integrante 3
+        datos_vicente()
     else:
         print(" Opción inválida.")
